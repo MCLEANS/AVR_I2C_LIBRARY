@@ -9,6 +9,9 @@ This is a library to help in communication between an AVR microcontroller and pe
             There are various modes and configurations in which it can be used. Let us start simply with a single master and a single slave.
             The Master generates the clock for serial communication(SCL). A stream of data bits(B1 to BN) is transferred between the start and the stop bits.
             
+            
+ ![circuit diagram](http://www.ermicro.com/blog/wp-content/uploads/2009/02/i2c_00.jpg)
+ 
 ## INITIALIZATION
 First we initialize the system by setting a prescaller and the i2c frequency.
             
