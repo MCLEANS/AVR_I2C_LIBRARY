@@ -24,6 +24,7 @@ To send the start bit we enable the TWI and then send a start bit, here in the s
           
 ##  READACK
 This is used to read data from the device into the AVR TWI data register and send an acknowledgement showing we wish to get more data
+
     
     void uint8_t TWI::readACK();
     
@@ -53,3 +54,5 @@ Data in this protocol is stored in the data register in BCD format but humans ar
     void TWI::stop();
       
            
+## NB
+This library was tested in the ATMEGA328P  microcontroller
